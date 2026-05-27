@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs et donnees generees
+logs/
+*.log
+*.csv
+resultats_simulation.csv
+
+# Modeles IA (trop volumineux pour git)
+*.pt
+*.onnx
+*.engine
+
+# Images de test
+test_photo.jpg
+*.bmp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Raspberry Pi
+*.img
+*.img.gz
+
+# Camera mapping (specifique a chaque setup)
+camera_mapping.json
